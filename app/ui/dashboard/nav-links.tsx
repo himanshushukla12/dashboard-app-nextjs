@@ -23,6 +23,7 @@ export default function NavLinks() {
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
+          //  use the <Link /> Component to link between pages in your application. <Link> allows you to do client-side navigation with JavaScript.
           <link
             key={link.name}
             href={link.href}
