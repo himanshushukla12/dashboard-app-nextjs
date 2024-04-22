@@ -23,6 +23,7 @@ export default function NavLinks() {
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
+          // link Prefetches the code for the linked route
           <Link
             key={link.name}
             href={link.href}
